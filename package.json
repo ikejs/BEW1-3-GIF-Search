@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ikejs/BEW1-3-GIF-Search/issues"
   },
-  "homepage": "https://github.com/ikejs/BEW1-3-GIF-Search#readme"
+  "homepage": "https://github.com/ikejs/BEW1-3-GIF-Search#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
