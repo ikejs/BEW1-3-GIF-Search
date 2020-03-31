@@ -1,6 +1,8 @@
 require('dotenv').config({ path: '.env' });
-const app = require('express')();
+const express = require('express')
+const app = express();
 const exphbs  = require('express-handlebars');
+const https = require('https');
 const Tenor = require("tenorjs").client({
   "Key": process.env.TENOR_API_KEY,
   "Filter": "high",
@@ -9,9 +11,11 @@ const Tenor = require("tenorjs").client({
 
 app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
+app.use(express.static('public'));
 
 app.get('/', (req, res) => {
   term = ""
+  results = [];
   if (req.query.term) {
       term = req.query.term
   }
