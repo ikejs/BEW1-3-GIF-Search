@@ -1,0 +1,19 @@
+{
+  "name": "bew1-3-gif-search",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikejs/BEW1-3-GIF-Search.git"
+  },
+  "author": "Ike Holzmann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ikejs/BEW1-3-GIF-Search/issues"
+  },
+  "homepage": "https://github.com/ikejs/BEW1-3-GIF-Search#readme"
+}
