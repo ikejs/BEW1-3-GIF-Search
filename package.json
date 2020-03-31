@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/ikejs/BEW1-3-GIF-Search#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.0"
   }
 }
